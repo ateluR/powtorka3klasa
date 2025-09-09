@@ -1,6 +1,6 @@
 public  class Main {
     public static void main(String[] args) {
-        System.out.println("cwel po lewej");
+        System.out.println("c**l po lewej");
 
         uczen uczen = new uczen("Edek", "Fredek");
         System.out.println("Liczba uczniów"+ uczen.getLiczbaUczniow());
