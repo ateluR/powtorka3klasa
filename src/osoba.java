@@ -30,5 +30,12 @@ public abstract class osoba {
         this.nazwisko = nazwisko;
     }
 
+    @Override
+    public String toString() {
+        return "osoba{" +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                '}';
+    }
 }
 
