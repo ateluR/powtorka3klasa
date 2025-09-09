@@ -25,7 +25,7 @@ public class uczen extends osoba{
 
     @Override
     public String toString() {
-        return "uczen{" +
+        return "uczen{imię: "+ getImie() + "nazwisko: " + getNazwisko()+
                 "nrUcznia=" + nrUcznia +
                 '}';
     }
